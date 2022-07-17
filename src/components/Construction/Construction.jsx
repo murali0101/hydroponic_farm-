@@ -5,7 +5,7 @@ export const Construction = () => {
   return (
     <>
       <Flex justifyContent={"center"}>
-        <Image w={"36.6%"} src={construction} mt={"5px"} mb={"5px"} />
+        <Image w={"38.058%"} src={construction} />
       </Flex>
     </>
   );

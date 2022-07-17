@@ -35,11 +35,14 @@ export const NavBar = () => {
   return (
     <>
       <Flex
+        zIndex={2}
+        position={"sticky"}
+        top={"0px"}
         flexWrap={"wrap"}
         minWidth="max-content"
         alignItems="center"
         gap="2"
-        p="2"
+        p="1"
         bg="#ffff"
         boxShadow={
           " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px"
@@ -56,7 +59,6 @@ export const NavBar = () => {
             <Button
               key={ind}
               onClick={() => {
-            
                 nav(`${ele.link}`);
               }}
             >

@@ -1,0 +1,40 @@
+{
+  "typeOfFarm": [
+    {
+      "name": "Open Hydroponic Set-up",
+      "description": "Open hydroponic systems usually use drip irrigation i.e., once the nutrient-rich water is applied at regular intervals, it flows through the root system, replenishing moisture and nutrients in the substrate and any excess then flows out the base of the growing container/bed/slab/bucket. The basic difference between closed and open hydroponic systems is that while the closed hydroponic system reuses water from the reservoir either directly after completion of cycles or after refortification with nutrients, the open system doesn’t follow the cyclical approach of reusing this water and drains it out to a separate tank, which is either discarded or used elsewhere. The biggest advantage with open systems is that it is amateur-friendly – the pH levels and nutrient content of water need not be monitored or maintained and the used water can be used in another place, for another purpose, making it truly home-friendly.",
+      "image": "https://lh4.googleusercontent.com/OEgVRdixUTo26dJxaJEu-x3AbOHF0E7QhG1z8V7ueyr5IY7IclZY8Yjva1A6pQm-McSydewLtf97NMffDeORRf-dZITqzvl-FoEpxMR-u3HL_RARuPMr9L_Sc4XKnYBURqZKa0w"
+    },
+    {
+      "name": "NFT Hydroponic Set-up",
+      "description": "Nutrient Film Technique of Hydroponic farming or NFT is a set-up wherein most or the functionality coincides with the Ebb and Flow or the Flood and Drain system, minus the use of any growing medium. Therefore, this system is beneficial for growing lightweight vegetables and flowers such as leafy greens. In terms of infrastructure, the major difference between NFT and Ebb and Flow is that NFT uses a water hose to bring water from the reservoir to the tray, while Ebb and Flow use a water pump.It should however be noted that NFT is not as forgiving as the Ebb and Flow system in terms of sturdiness and versatility, but it does offer better nutrition to the crops that it’s compatible with.",
+      "image": "https://lh6.googleusercontent.com/SX0vc3Afp7zIinvHcSJtuxKqVBmH-sU8LmvV2C6RJBSX_WmY8aarnq2-aZGfKg0HYtgJ8tXmWk4oQbGOyyv8FNXFunPH2ssz8BZPg4_X9mra3T_NpT3GjXsSIZ3JcXQSw6D3Tws"
+    },
+    {
+      "name": "Ebb and Flow Set-up",
+      "description": "This is the most widely recognized form of hydroponic farming and is usually employed in commercial-scale farming. Also known as the Flood and Drain system, this form of hydroponic set-up and uses plant trays, pipe systems, reservoir, and air tubes (for aeration and movement of water from the reservoir to pipes) in order to utilize a stream of moving water across from one end to the other of the interconnected tray and pipe setup.In this the roots touch the moving nutrient-rich water and gravity coaxes this moving water to get collected in another reservoir where this water is either re-fortified with lost nutrients or transferred back to the source reservoir in order to reuse the water multiple times. Sometimes, a common reservoir is attached at both ends",
+      "image": "https://lh6.googleusercontent.com/F4qSZiM1bCNpnvorhrRDxN_M_Ntgsum1jwnhcBDnESbZZBXJrsXyNaLsYpbflerxuUAOr5ub7E6dKRZjNgkgfJPIc9KzSmCNCE4OGaHaAzYHq5c4rw0w_qtH858AbK4ZBGDWPGY"
+    },
+    {
+      "name": "Wick Hydroponic Set-up",
+      "description": "Much like the deep-water system, there is no movement of water or any cumbersome infrastructural requirements in this setup. Essentially, a wick is attached to the growing tray with one end submerged into the nutrient-rich water reservoir, which transfers adequate moisture from the source to sapling. This method works well in either large-scale or small-scale establishments and should not be opted for in medium-scale farms.",
+      "image": "https://twopeasinacondo.com/wp-content/uploads/2022/05/hydroponic-wick-system-pinterest.jpg.webp"
+    },
+    {
+      "name": "Deep Water Culture (DWC) Set-up",
+      "description": "This method of hydroponic farming is suitable for those who do not want to invest in too much of an infrastructural setup and would rather plant a small amount of food (mostly for sustenance). Unless done on a large scale, this setup uses more water and doesn’t utilize vertical farm space, thereby reducing yield per unit area as compared with other popular hydroponic farming setups.On the flip side, this one is pretty easy to achieve – all you need to do is suspend floating trays with punctures (for the roots to get through) into the nutrient-rich water tank and you’re done. The crudest application of this form of hydroculture is seen in water vase plants, usually kept for decoration.",
+      "image": "https://lh5.googleusercontent.com/6b6cFWjJ9m8HautMS4YGncRXIQ2Sa53vA-dB2KzJCkqnoP-FmGRY7Cs4FO6CLiQZXdBRa-aB_8uxyah0tBFVeUDf3mUNgtJt-0IjiPF32FuGJpAHmnlF_yVWEgEOaoHpw8Kzp_0"
+    },
+    {
+      "name": "Closed Hydroponic Farm Set-up",
+      "description":"If you are looking to set up a hydroponic system in a closed space such as a greenhouse or polyhouse, the closed hydroponic farm set-up is your most effective bet at maximizing the yield per unit area as it forms a closed loop of water recycling, making it fit for an environment that doesn’t promote evaporation. This particular system, when compared with traditional farming, allows the grower to get the same amount of yield with over 80% less water, barely any fertilizers (over and above the nutrient mix) and no soil at all.Further, given the closed environment, the water doesn’t really evaporate that much and the saplings don’t get as thirsty, thereby making it much more efficient, even when benchmarked against other hydroponic, soilless systems. People who have backyards and terrace access can definitely look into this particular hydroponic farming set-up.",
+      "image": "https://lh4.googleusercontent.com/oDlBccGDY6nUApNWAjhysXNmr2WcHbcE4q3qAcjU34_B5g_xXUMae7BbaR5OcsoGwTn0TS_TeqFJ1FoYgL6BaWEZK3yO46LXi1Bcg1vV6-LLmCerftUUPmo9yQVhjdU0SYZKu3o"
+    },
+    {
+      "name": "Vertical Farming",
+      "description":"Hydroponics is all about growing plants in a soilless medium and using water to provide a rich and balanced diet. Vertical farming looks to save space by using tall structures such as skyscrapers in order to build on farm space in a vertical direction instead of the conventional horizontal method.",
+      "image": "https://img.krishijagran.com/media/61135/turmeric-vertical-farming-in-poly-house-500x500.jpg"
+    }
+  ]
+}
+

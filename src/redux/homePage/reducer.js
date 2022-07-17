@@ -1,5 +1,6 @@
+import data from "../../data/db.json";
 const initState = {
-  products: [],
+  typeOfFarm: data.typeOfFarm,
 };
 
 export const homePageReducer = (state = initState, { type, payload }) => {
