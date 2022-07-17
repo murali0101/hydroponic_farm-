@@ -17,7 +17,6 @@ const breakpoints = {
 const Button = {
   baseStyle: {
     fontWeight: "bold",
-   
   },
   variants: {
     outline: {
@@ -48,5 +47,6 @@ export const theme = extendTheme({
   breakpoints,
   components: {
     Button,
+    
   },
 });

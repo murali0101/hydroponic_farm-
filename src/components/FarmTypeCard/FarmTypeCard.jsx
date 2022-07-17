@@ -6,22 +6,22 @@ export const FarmTypeCard = ({ props }) => {
 
   return (
     <>
-      <Flex p={5} m={2}>
-        <Box flex={3}>
+      <Flex p={4}>
+        <Box flex={[1,1,1,3]}>
           <Link
           
             as={RouterLink}
             to="/farm-details"
             _hover={{ color: "#81D742", textDecoration: "none" }}
           >
-            <Heading as="h4" size="md" mb={2}>{`${
+            <Heading as="h4" size="md" mb={2} w={"fit-content"}>{`${
               props.ind + 1
             }) ${name}`}</Heading>
           </Link>
 
-          <Text>{description}</Text>
+          <Text textAlign={"justify"}>{description}</Text>
         </Box>
-        <Box ml={2} flex={1} overflow="hidden">
+              <Box ml={5} overflow="hidden" flex={1}>
           <Image src={image} w={"100%"} className="zoom" />
         </Box>
       </Flex>

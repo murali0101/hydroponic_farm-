@@ -7,7 +7,8 @@ import { store } from "../src/redux/store/store";
 import { BrowserRouter } from "react-router-dom";
 import { Provider as ReduxProvider } from "react-redux";
 import { theme } from "./theme";
-
+import axios from "axios";
+axios.defaults.baseURL = "https://hydroponic-farm.herokuapp.com/";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

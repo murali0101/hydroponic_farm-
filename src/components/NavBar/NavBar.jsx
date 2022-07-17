@@ -6,13 +6,21 @@ import {
   Image,
   Link,
   Spacer,
+  useToast,
 } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 import logo from "../../assets/image/logo.png";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { useSelector , useDispatch} from "react-redux";
+import { signOutRequest } from "../../redux/auth/actions";
 export const NavBar = () => {
+  const { token, user } = useSelector((store) => store.authReducer);
+  const dispatch = useDispatch()
+  const toast = useToast();
+  const handleSignOut = () => {
+    dispatch( signOutRequest(toast));
+  };
   const nav = useNavigate();
   let button = [
     {
@@ -28,8 +36,8 @@ export const NavBar = () => {
       link: "/signUp",
     },
     {
-      name: "Sign In",
-      link: "/signIn",
+      name: `${!!token ? "Sign Out" : "Sign In"}`,
+      link: `${!!token ? "/signOut" : "/signIn"}`,
     },
   ];
   return (
@@ -59,6 +67,11 @@ export const NavBar = () => {
             <Button
               key={ind}
               onClick={() => {
+                if (ele.link == "/signOut") {
+                  handleSignOut()
+                  nav(`/`);
+                  return;
+                }
                 nav(`${ele.link}`);
               }}
             >

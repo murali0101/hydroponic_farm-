@@ -8,8 +8,8 @@ export const HomePage = () => {
   console.log("typeOfFarm:", typeOfFarm);
   return (
     <>
-      <Box>
-        <Image src={banner} width={"100%"} objectFit="cover" />
+      <Box overflow={"hidden"}>
+        <Image src={banner} width={"100%"} objectFit="cover" className="zoom"/>
       </Box>
       <Box m={4}>
         <Heading as="h2" size="xl" mb={3}>
