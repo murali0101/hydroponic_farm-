@@ -8,6 +8,7 @@ import { ShopPage } from "../components/ShopPage/ShopPage";
 import { Private } from "./PrivateRoute";
 import { CartPage } from "../components/CartPage/CartPage";
 import { ContactUs } from "../components/ContactUs/ContactUs";
+import { Technology } from "../components/Technology/Technology";
 
 export const Router = () => {
   return (
@@ -15,7 +16,7 @@ export const Router = () => {
       <Box>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/technology" element={<Construction />} />
+          <Route path="/technology" element={<Technology />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route
             path="/cart"
