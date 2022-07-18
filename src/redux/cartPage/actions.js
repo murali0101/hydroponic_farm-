@@ -36,7 +36,9 @@ export const getCartData = (token, toast) => async (dispatch) => {
     let res = await axios.get(`/cart`, {
       headers: { Authorization: `Bearer ${token}` },
     });
-
+    if (res.data.length==0) {
+      notify(toast, "No Products in Your Cart Please Add some Thing", "info");
+    }
     dispatch(addCartData(res.data));
   } catch (err) {
     console.log(err);
