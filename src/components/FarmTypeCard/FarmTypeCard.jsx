@@ -7,9 +7,8 @@ export const FarmTypeCard = ({ props }) => {
   return (
     <>
       <Flex p={4}>
-        <Box flex={[1,1,1,3]}>
+        <Box flex={[1, 1, 1, 3]}>
           <Link
-          
             as={RouterLink}
             to="/farm-details"
             _hover={{ color: "#81D742", textDecoration: "none" }}
@@ -21,7 +20,7 @@ export const FarmTypeCard = ({ props }) => {
 
           <Text textAlign={"justify"}>{description}</Text>
         </Box>
-              <Box ml={5} overflow="hidden" flex={1}>
+        <Box ml={5} overflow="hidden" flex={1}>
           <Image src={image} w={"100%"} className="zoom" />
         </Box>
       </Flex>

@@ -5,7 +5,7 @@ import { FarmTypeCard } from "../FarmTypeCard/FarmTypeCard";
 import { useSelector } from "react-redux";
 export const HomePage = () => {
   const typeOfFarm = useSelector((store) => store.homePageReducer.typeOfFarm);
-  console.log("typeOfFarm:", typeOfFarm);
+  // console.log("typeOfFarm:", typeOfFarm);
   return (
     <>
       <Box overflow={"hidden"}>

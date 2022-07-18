@@ -32,7 +32,7 @@ const Button = {
       bg: "#81D742",
       color: "white",
       _hover: {
-        bg: "#2d80d3",
+        bg: "#80d742d1",
         color: "white",
       },
     },
@@ -47,6 +47,5 @@ export const theme = extendTheme({
   breakpoints,
   components: {
     Button,
-    
   },
 });

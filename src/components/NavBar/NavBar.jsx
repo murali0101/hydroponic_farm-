@@ -12,14 +12,14 @@ import { Link as RouterLink } from "react-router-dom";
 import logo from "../../assets/image/logo.png";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useSelector , useDispatch} from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { signOutRequest } from "../../redux/auth/actions";
 export const NavBar = () => {
   const { token, user } = useSelector((store) => store.authReducer);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const toast = useToast();
   const handleSignOut = () => {
-    dispatch( signOutRequest(toast));
+    dispatch(signOutRequest(toast));
   };
   const nav = useNavigate();
   let button = [
@@ -30,6 +30,10 @@ export const NavBar = () => {
     {
       name: "Shop",
       link: "/shop",
+    },
+    {
+      name: "Cart",
+      link: "/cart",
     },
     {
       name: "Sign Up",
@@ -68,7 +72,7 @@ export const NavBar = () => {
               key={ind}
               onClick={() => {
                 if (ele.link == "/signOut") {
-                  handleSignOut()
+                  handleSignOut();
                   nav(`/`);
                   return;
                 }
