@@ -52,3 +52,48 @@ export const signupValidator = (obj, toast) => {
     return true;
   }
 };
+
+export const contactUsValidator = (obj, toast) => {
+  const { name, mobile, email, city, comments, sizeOfLand } = obj;
+  let isEmail = email.split("").lastIndexOf("@");
+  let isEmailDot = email.split("").lastIndexOf(".");
+
+  if (name.length <= 3) {
+    notify(toast, "Name length should be greater then 3 alphabets ", "error");
+    return false;
+  } else if (mobile.length !== 10) {
+    notify(toast, "Please add 10 digit mobile number", "error");
+    return false;
+  } else if (email.length < 3) {
+    notify(toast, "Please add a valid email id", "error");
+    return false;
+  } else if (isEmail === -1) {
+    notify(toast, "Invalid email id, '@' is missing", "error");
+    return false;
+  } else if (isEmailDot === -1) {
+    notify(toast, "Invalid email id, '.' is missing", "error");
+    return false;
+  } else if (isEmail === email.length - 1) {
+    notify(toast, "'@' shouldn't be at the end", "error");
+    return false;
+  } else if (isEmailDot === email.length - 1) {
+    notify(toast, "'.' shouldn't be at the end", "error");
+    return false;
+  } else if (city.length < 3) {
+    notify(
+      toast,
+      "city name length should be greater then 2 alphabets ",
+      "error"
+    );
+    return false;
+  } else if (sizeOfLand.length < 3) {
+    notify(
+      toast,
+      "size of land name length should be greater then 2 alphabets ",
+      "error"
+    );
+    return false;
+  } else {
+    return true;
+  }
+};

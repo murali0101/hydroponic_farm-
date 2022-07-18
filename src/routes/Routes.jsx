@@ -7,6 +7,7 @@ import { HomePage } from "../components/HomePage/HomePage";
 import { ShopPage } from "../components/ShopPage/ShopPage";
 import { Private } from "./PrivateRoute";
 import { CartPage } from "../components/CartPage/CartPage";
+import { ContactUs } from "../components/ContactUs/ContactUs";
 
 export const Router = () => {
   return (
@@ -29,7 +30,7 @@ export const Router = () => {
           <Route path="/signIn" element={<SignIn />} />
           <Route path="/aboutUs" element={<Construction />} />
           <Route path="/advertise" element={<Construction />} />
-          <Route path="/contactUs" element={<Construction />} />
+          <Route path="/contactUs" element={<ContactUs/>} />
           <Route path="/Privacy&Terms" element={<Construction />} />
           <Route path="/farm-details" element={<Construction />} />
         </Routes>
